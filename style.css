@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100vh;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
 label {
@@ -52,4 +52,16 @@ label {
   text-align: justify;
   margin-top: 10px;
   font-size: 1rem;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 522px) {
+  .container {
+    width: 350px;
+    margin-top: 30px;
+  }
 }
